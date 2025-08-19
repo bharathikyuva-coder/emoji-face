@@ -1,0 +1,123 @@
+/* google font link  */
+/* google font link  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: lightgoldenrodyellow;
+  width: 100vw;
+  height: 100vh;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+/* text heading  */
+h1 {
+  text-align: center;
+  font-size: 90px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+/* text title  */
+.happy,
+.ohh,
+.hmm,
+.sad {
+  margin-top: 270px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+/* emoji full  */
+.emoji-warapper {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* emoji face style for all  */
+.emoji-face {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: rgb(255, 140, 0);
+  position: relative;
+}
+.eye {
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: black;
+  top: 70px;
+}
+.eye-left {
+  left: 60px;
+}
+.eye-right {
+  right: 60px;
+}
+/* happy  */
+.happy-mouth {
+  position: absolute;
+  height: 32px;
+  width: 85px;
+  background-color: black;
+  border-radius: 0 0 50px 50px;
+  top: 150px;
+  left: 80px;
+}
+.happy-tongue {
+  position: absolute;
+  height: 50px;
+  width: 60px;
+  background-color: palevioletred;
+  border-radius: 0 0 50px 50px;
+  top: 160px;
+  left: 90px;
+}
+/* 0hh  */
+.ohh-mouth {
+  position: absolute;
+  height: 50px;
+  width: 70px;
+  background-color: black;
+  border-radius: 50%;
+  top: 159px;
+  left: 85px;
+  z-index: 1;
+  overflow: hidden;
+}
+/* hmm  */
+.hmm-mouth {
+  position: absolute;
+  height: 10px;
+  width: 70px;
+  background-color: black;
+  border-radius: 50%;
+  top: 160px;
+  left: 85px;
+  z-index: 1;
+  overflow: hidden;
+}
+/* sad face */
+.sad-mouth {
+  position: absolute;
+  height: 60px;
+  width: 120px;
+  border: 5px solid black;
+  border-bottom: none;
+  border-radius: 60px 60px 0 0;
+  top: 140px;
+  left: 65px;
+  z-index: 1;
+  overflow: hidden;
+}
